@@ -22,7 +22,7 @@ int main() {
     cout << result << "\n\n";
   
     HexEncoder encoder1(new StringSink(result1));
-    string gsm1, msg1 = "My name is Alexander";
+    string gsm1, msg1 = "cr test";
     cout << "Text: " << msg1 << endl;
     hash.Update((const byte*)&msg1[0], msg1.size());
     gsm1.resize(hash.DigestSize());
